@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="solo_letras">Nombre</string>
+    <string name="solo_num">Edad</string>
+</resources>
