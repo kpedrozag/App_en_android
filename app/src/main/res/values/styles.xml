@@ -16,4 +16,11 @@
         <item name="android:background">@drawable/bg_button</item>
         <item name="android:textSize">20sp</item>
     </style>
+
+    <style name="fuente_jugad">
+        <item name="android:textColor">#bf360c</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+    </style>
 </resources>
