@@ -10,7 +10,7 @@
         android:id="@+id/textView"
         style="@style/fuente_jugad"
         android:layout_width="wrap_content"
-        android:layout_height="130dp"
+        android:layout_height="118dp"
         android:layout_marginBottom="46dp"
         android:layout_marginEnd="130dp"
         android:layout_marginStart="130dp"

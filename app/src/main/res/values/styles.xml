@@ -19,7 +19,7 @@
 
     <style name="fuente_jugad">
         <item name="android:textColor">#bf360c</item>
-        <item name="android:textSize">35sp</item>
+        <item name="android:textSize">50sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAlignment">center</item>
     </style>
