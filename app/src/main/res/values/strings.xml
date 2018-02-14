@@ -1,5 +1,9 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="solo_letras">Nombre</string>
-    <string name="solo_num">Edad</string>
+    <string name="app_name">Punticos</string>
+    <string name="titulo">Punticos</string>
+    <string name="jugar_ppal">Jugar</string>
+    <string name="tutorial_ppal">Tutorial</string>
+    <string name="opcion_ppal">Opciones</string>
+    <string name="about_ppal">Acerca del juego</string>
+
 </resources>

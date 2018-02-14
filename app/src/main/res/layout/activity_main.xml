@@ -7,32 +7,55 @@
     tools:context="com.example.kevinpedroza.myapplication.MainActivity">
 
     <LinearLayout
-        android:layout_width="344dp"
-        android:layout_height="360dp"
-        android:layout_marginEnd="8dp"
+        android:id="@+id/linearLayout"
+        android:layout_width="136dp"
+        android:layout_height="220dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginStart="124dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="47dp">
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="232dp">
 
-        <EditText
-            android:id="@+id/editText_number"
+        <Button
+            android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="@string/solo_num"
-            android:inputType="number"
-            tools:layout_editor_absoluteX="72dp"
-            tools:layout_editor_absoluteY="92dp" />
+            android:text="@string/jugar_ppal"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="114dp" />
 
-        <EditText
-            android:id="@+id/editText_nombre"
+        <Button
+            android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="@string/solo_letras"
-            android:inputType="textPersonName"
-            tools:layout_editor_absoluteX="72dp"
-            tools:layout_editor_absoluteY="26dp" />
+            android:text="@string/tutorial_ppal" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opcion_ppal" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_ppal" />
+
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="110dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="104dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
