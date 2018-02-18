@@ -12,3 +12,11 @@ El juego consta de un tablero de puntos sobre el cual cada jugador en su respect
 Cuando un jugador traza la última línea que forma un cuadrado, añade +1 a su puntaje de la partida, y además está obligado a trazar una linea más.
 
 El juego finaliza cuando todos los posibles cuadrados que se pueden formar estan marcados o trazados y gana la partida el jugador que más cuadrados haya hecho, o bien, quien tenga mejor puntaje.
+
+Para la fecha 18/Feb/2018 se estan desarrollando en Android Studio los 3 siguientes wireframes:
+
+![pantallazo_1] (https://github.com/kpedrozag/App_en_android/blob/master/wf1.png)
+
+![pantallazo_2] (https://github.com/kpedrozag/App_en_android/blob/master/wf2.png)
+
+![pantallazo_3] (https://github.com/kpedrozag/App_en_android/blob/master/wf3.png)
