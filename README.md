@@ -15,8 +15,8 @@ El juego finaliza cuando todos los posibles cuadrados que se pueden formar estan
 
 Para la fecha 18/Feb/2018 se estan desarrollando en Android Studio los 3 siguientes wireframes:
 
-![pantallazo_1] (https://github.com/kpedrozag/App_en_android/blob/master/wf1.png)
+![pantallazo_1](https://github.com/kpedrozag/App_en_android/blob/master/wf1.png)
 
-![pantallazo_2] (https://github.com/kpedrozag/App_en_android/blob/master/wf2.png)
+![pantallazo_2](https://github.com/kpedrozag/App_en_android/blob/master/wf2.png)
 
-![pantallazo_3] (https://github.com/kpedrozag/App_en_android/blob/master/wf3.png)
+![pantallazo_3](https://github.com/kpedrozag/App_en_android/blob/master/wf3.png)
