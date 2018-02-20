@@ -11,4 +11,19 @@
     <!-- String de activity_jugar -->
     <string name="nombre_jug">Escojan\nsu color</string>
     <string name="go">¡A jugar!</string>
+
+    <!-- String de activity escojer opciones de jugador-->
+    <string-array name="colores">
+        <item>Rojo</item>
+        <item>Azul</item>
+        <item>Verde</item>
+        <item>Amarillo</item>
+        <item>Naranja</item>
+    </string-array>
+    <string name="player1">J 1</string>
+    <string name="player2">J 2</string>
+
+    <!-- String de activity tablero-->
+    <string name="punto_n">punto negro</string>
+
 </resources>
