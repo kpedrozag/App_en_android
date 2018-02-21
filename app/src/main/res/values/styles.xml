@@ -7,7 +7,7 @@
     </style>
 
     <style name="fuente_ppal">
-        <item name="android:textColor">#bf360c</item>
+        <item name="android:textColor">#eae70e</item>
         <item name="android:textSize">70sp</item>
         <item name="android:textStyle">bold</item>
     </style>
