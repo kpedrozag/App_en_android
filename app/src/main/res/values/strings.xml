@@ -1,14 +1,14 @@
 <resources>
     <string name="app_name">Juego: Punticos</string>
-    
+
     <!-- Strings de activity_main -->
     <string name="titulo">Punticos</string>
     <string name="jugar_ppal">Jugar</string>
     <string name="tutorial_ppal">Tutorial</string>
     <string name="opcion_ppal">Opciones</string>
     <string name="about_ppal">Acerca del juego</string>
-    
-    <!-- String de activity_jugar -->
+
+    <!-- String de la actividad jugaugar -->
     <string name="nombre_jug">Escojan\nsu color</string>
     <string name="go">¡A jugar!</string>
 
