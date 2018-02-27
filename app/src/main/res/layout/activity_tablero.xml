@@ -8,17 +8,24 @@
 
 
     <TableLayout
-        android:layout_width="wrap_content"
+        android:id="@+id/tableLayout"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="17dp"
-        tools:layout_editor_absoluteY="105dp">
+        android:layout_marginBottom="1dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="53dp">
 
             <ImageButton
-                android:id="@+id/imageButton18"
+                android:id="@+id/b00"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@android:color/transparent"
@@ -27,25 +34,7 @@
                 tools:layout_editor_absoluteX="96dp" />
 
             <ImageButton
-                android:id="@+id/imageButton5"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
-                android:background="@android:color/transparent"
-                android:src="@drawable/brightness_1"
-                tools:layout_editor_absoluteX="96dp" />
-
-            <ImageButton
-                android:id="@+id/imageButton4"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
-                android:background="@android:color/transparent"
-                android:src="@drawable/brightness_1"
-                tools:layout_editor_absoluteX="96dp" />
-
-            <ImageButton
-                android:id="@+id/imageButton3"
+                android:id="@+id/b01"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@android:color/transparent"
@@ -54,57 +43,7 @@
                 tools:layout_editor_absoluteX="96dp" />
 
             <ImageButton
-                android:id="@+id/imageButton2"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
-                android:background="@android:color/transparent"
-                android:src="@drawable/brightness_1"
-                tools:layout_editor_absoluteX="96dp" />
-
-            <ImageButton
-                android:id="@+id/imageButton"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
-                android:background="@android:color/transparent"
-                android:src="@drawable/brightness_1"
-                tools:layout_editor_absoluteX="96dp" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageButton
-                android:id="@+id/imageButton6"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
-                android:background="@android:color/transparent"
-                android:src="@drawable/brightness_1"
-                tools:layout_editor_absoluteX="96dp" />
-
-            <ImageButton
-                android:id="@+id/imageButton7"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
-                android:background="@android:color/transparent"
-                android:src="@drawable/brightness_1"
-                tools:layout_editor_absoluteX="96dp" />
-
-            <ImageButton
-                android:id="@+id/imageButton8"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
-                android:background="@android:color/transparent"
-                android:src="@drawable/brightness_1"
-                tools:layout_editor_absoluteX="96dp" />
-
-            <ImageButton
-                android:id="@+id/imageButton9"
+                android:id="@+id/b02"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@android:color/transparent"
@@ -113,20 +52,29 @@
                 tools:layout_editor_absoluteX="96dp" />
 
             <ImageButton
-                android:id="@+id/imageButton10"
+                android:id="@+id/b03"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
                 android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
                 android:src="@drawable/brightness_1"
                 tools:layout_editor_absoluteX="96dp" />
 
             <ImageButton
-                android:id="@+id/imageButton11"
+                android:id="@+id/b04"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
                 android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
+                android:src="@drawable/brightness_1"
+                tools:layout_editor_absoluteX="96dp" />
+
+            <ImageButton
+                android:id="@+id/b05"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
                 android:src="@drawable/brightness_1"
                 tools:layout_editor_absoluteX="96dp" />
         </TableRow>
@@ -136,34 +84,7 @@
             android:layout_height="match_parent">
 
             <ImageButton
-                android:id="@+id/imageButton12"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
-                android:background="@android:color/transparent"
-                android:src="@drawable/brightness_1"
-                tools:layout_editor_absoluteX="96dp" />
-
-            <ImageButton
-                android:id="@+id/imageButton13"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
-                android:background="@android:color/transparent"
-                android:src="@drawable/brightness_1"
-                tools:layout_editor_absoluteX="96dp" />
-
-            <ImageButton
-                android:id="@+id/imageButton14"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
-                android:background="@android:color/transparent"
-                android:src="@drawable/brightness_1"
-                tools:layout_editor_absoluteX="96dp" />
-
-            <ImageButton
-                android:id="@+id/imageButton15"
+                android:id="@+id/b10"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@android:color/transparent"
@@ -172,20 +93,106 @@
                 tools:layout_editor_absoluteX="96dp" />
 
             <ImageButton
-                android:id="@+id/imageButton16"
+                android:id="@+id/b11"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
                 android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
                 android:src="@drawable/brightness_1"
                 tools:layout_editor_absoluteX="96dp" />
 
             <ImageButton
-                android:id="@+id/imageButton17"
+                android:id="@+id/b12"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
                 android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
+                android:src="@drawable/brightness_1"
+                tools:layout_editor_absoluteX="96dp" />
+
+            <ImageButton
+                android:id="@+id/b13"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
+                android:src="@drawable/brightness_1"
+                tools:layout_editor_absoluteX="96dp" />
+
+            <ImageButton
+                android:id="@+id/b14"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
+                android:src="@drawable/brightness_1"
+                tools:layout_editor_absoluteX="96dp" />
+
+            <ImageButton
+                android:id="@+id/b15"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
+                android:src="@drawable/brightness_1"
+                tools:layout_editor_absoluteX="96dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/b20"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
+                android:src="@drawable/brightness_1"
+                tools:layout_editor_absoluteX="96dp" />
+
+            <ImageButton
+                android:id="@+id/b21"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
+                android:src="@drawable/brightness_1"
+                tools:layout_editor_absoluteX="96dp" />
+
+            <ImageButton
+                android:id="@+id/b22"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
+                android:src="@drawable/brightness_1"
+                tools:layout_editor_absoluteX="96dp" />
+
+            <ImageButton
+                android:id="@+id/b23"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
+                android:src="@drawable/brightness_1"
+                tools:layout_editor_absoluteX="96dp" />
+
+            <ImageButton
+                android:id="@+id/b24"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
+                android:src="@drawable/brightness_1"
+                tools:layout_editor_absoluteX="96dp" />
+
+            <ImageButton
+                android:id="@+id/b25"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
                 android:src="@drawable/brightness_1"
                 tools:layout_editor_absoluteX="96dp" />
         </TableRow>
@@ -195,34 +202,7 @@
             android:layout_height="41dp">
 
             <ImageButton
-                android:id="@+id/imageButton19"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
-                android:background="@android:color/transparent"
-                android:src="@drawable/brightness_1"
-                tools:layout_editor_absoluteX="96dp" />
-
-            <ImageButton
-                android:id="@+id/imageButton20"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
-                android:background="@android:color/transparent"
-                android:src="@drawable/brightness_1"
-                tools:layout_editor_absoluteX="96dp" />
-
-            <ImageButton
-                android:id="@+id/imageButton21"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
-                android:background="@android:color/transparent"
-                android:src="@drawable/brightness_1"
-                tools:layout_editor_absoluteX="96dp" />
-
-            <ImageButton
-                android:id="@+id/imageButton22"
+                android:id="@+id/b30"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@android:color/transparent"
@@ -231,58 +211,7 @@
                 tools:layout_editor_absoluteX="96dp" />
 
             <ImageButton
-                android:id="@+id/imageButton23"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
-                android:background="@android:color/transparent"
-                android:src="@drawable/brightness_1"
-                tools:layout_editor_absoluteX="96dp" />
-
-            <ImageButton
-                android:id="@+id/imageButton24"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
-                android:background="@android:color/transparent"
-                android:src="@drawable/brightness_1"
-                tools:layout_editor_absoluteX="96dp" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-
-            <ImageButton
-                android:id="@+id/imageButton25"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
-                android:background="@android:color/transparent"
-                android:src="@drawable/brightness_1"
-                tools:layout_editor_absoluteX="96dp" />
-
-            <ImageButton
-                android:id="@+id/imageButton26"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
-                android:background="@android:color/transparent"
-                android:src="@drawable/brightness_1"
-                tools:layout_editor_absoluteX="96dp" />
-
-            <ImageButton
-                android:id="@+id/imageButton27"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
-                android:background="@android:color/transparent"
-                android:src="@drawable/brightness_1"
-                tools:layout_editor_absoluteX="96dp" />
-
-            <ImageButton
-                android:id="@+id/imageButton28"
+                android:id="@+id/b31"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@android:color/transparent"
@@ -291,20 +220,38 @@
                 tools:layout_editor_absoluteX="96dp" />
 
             <ImageButton
-                android:id="@+id/imageButton29"
+                android:id="@+id/b32"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
                 android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
                 android:src="@drawable/brightness_1"
                 tools:layout_editor_absoluteX="96dp" />
 
             <ImageButton
-                android:id="@+id/imageButton30"
+                android:id="@+id/b33"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
                 android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
+                android:src="@drawable/brightness_1"
+                tools:layout_editor_absoluteX="96dp" />
+
+            <ImageButton
+                android:id="@+id/b34"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
+                android:src="@drawable/brightness_1"
+                tools:layout_editor_absoluteX="96dp" />
+
+            <ImageButton
+                android:id="@+id/b35"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
                 android:src="@drawable/brightness_1"
                 tools:layout_editor_absoluteX="96dp" />
         </TableRow>
@@ -315,34 +262,7 @@
 
 
             <ImageButton
-                android:id="@+id/imageButton31"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
-                android:background="@android:color/transparent"
-                android:src="@drawable/brightness_1"
-                tools:layout_editor_absoluteX="96dp" />
-
-            <ImageButton
-                android:id="@+id/imageButton32"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
-                android:background="@android:color/transparent"
-                android:src="@drawable/brightness_1"
-                tools:layout_editor_absoluteX="96dp" />
-
-            <ImageButton
-                android:id="@+id/imageButton33"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
-                android:background="@android:color/transparent"
-                android:src="@drawable/brightness_1"
-                tools:layout_editor_absoluteX="96dp" />
-
-            <ImageButton
-                android:id="@+id/imageButton34"
+                android:id="@+id/b40"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@android:color/transparent"
@@ -351,20 +271,107 @@
                 tools:layout_editor_absoluteX="96dp" />
 
             <ImageButton
-                android:id="@+id/imageButton35"
+                android:id="@+id/b41"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
                 android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
                 android:src="@drawable/brightness_1"
                 tools:layout_editor_absoluteX="96dp" />
 
             <ImageButton
-                android:id="@+id/imageButton36"
+                android:id="@+id/b42"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:contentDescription="@string/punto_n"
                 android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
+                android:src="@drawable/brightness_1"
+                tools:layout_editor_absoluteX="96dp" />
+
+            <ImageButton
+                android:id="@+id/b43"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
+                android:src="@drawable/brightness_1"
+                tools:layout_editor_absoluteX="96dp" />
+
+            <ImageButton
+                android:id="@+id/b44"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
+                android:src="@drawable/brightness_1"
+                tools:layout_editor_absoluteX="96dp" />
+
+            <ImageButton
+                android:id="@+id/b45"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
+                android:src="@drawable/brightness_1"
+                tools:layout_editor_absoluteX="96dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageButton
+                android:id="@+id/b50"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
+                android:src="@drawable/brightness_1"
+                tools:layout_editor_absoluteX="96dp" />
+
+            <ImageButton
+                android:id="@+id/b51"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
+                android:src="@drawable/brightness_1"
+                tools:layout_editor_absoluteX="96dp" />
+
+            <ImageButton
+                android:id="@+id/b52"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
+                android:src="@drawable/brightness_1"
+                tools:layout_editor_absoluteX="96dp" />
+
+            <ImageButton
+                android:id="@+id/b53"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
+                android:src="@drawable/brightness_1"
+                tools:layout_editor_absoluteX="96dp" />
+
+            <ImageButton
+                android:id="@+id/b54"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
+                android:src="@drawable/brightness_1"
+                tools:layout_editor_absoluteX="96dp" />
+
+            <ImageButton
+                android:id="@+id/b55"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/punto_n"
                 android:src="@drawable/brightness_1"
                 tools:layout_editor_absoluteX="96dp" />
         </TableRow>
@@ -374,50 +381,79 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="169dp"
-        android:layout_height="38dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="108dp"
-        tools:layout_editor_absoluteY="488dp" />
-
-    <TextView
-        android:id="@+id/textView5"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="31dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="1dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="294dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="61dp" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="294dp"
-        tools:layout_editor_absoluteY="61dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
 
     <Button
-        android:id="@+id/button6"
-        android:layout_width="48dp"
-        android:layout_height="43dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="320dp"
-        tools:layout_editor_absoluteY="483dp" />
+        android:id="@+id/salir"
+        style="@style/jugadores"
+        android:layout_width="56dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginStart="54dp"
+        android:text="X"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        tools:layout_editor_absoluteY="465dp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="235dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="31dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginStart="82dp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/jugadores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/puntosj1"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="13dp"
+            android:text="@string/player1_t" />
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/jugadores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="13dp"
+            android:text="@string/player2_t" />
+
+        <TextView
+            android:id="@+id/puntosj1"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:text="TextView"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="31dp" />
+
+        <TextView
+            android:id="@+id/puntosj2"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:text="TextView"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="31dp" />
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

@@ -25,5 +25,8 @@
 
     <!-- String de activity tablero-->
     <string name="punto_n">punto negro</string>
+    <string name="player1_t">J 1</string>
+    <string name="player2_t">J 2</string>
+
 
 </resources>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/fondo_2"
+    android:background="@mipmap/fondo"
     android:orientation="vertical"
     tools:context="com.example.kevinpedroza.myapplication.MainActivity">
 
@@ -24,7 +24,7 @@
 
     <RelativeLayout
         android:layout_width="198dp"
-        android:layout_height="243dp"
+        android:layout_height="254dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
@@ -32,64 +32,65 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nombre_ppal">
+        app:layout_constraintTop_toBottomOf="@+id/nombre_ppal"
+        app:layout_constraintVertical_bias="0.419">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btjugar"
             style="@style/boton_ppal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_marginBottom="15dp"
             android:onClick="ir_jugar"
             android:text="@string/jugar_ppal"
-            app:layout_constraintBottom_toTopOf="@+id/button2"
+            app:layout_constraintBottom_toTopOf="@+id/bttut"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/bttut"
             style="@style/boton_ppal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/button"
+            android:layout_below="@+id/btjugar"
             android:text="@string/tutorial_ppal"
-            app:layout_constraintBottom_toTopOf="@+id/button3"
+            app:layout_constraintBottom_toTopOf="@+id/btopt"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button" />
+            app:layout_constraintTop_toBottomOf="@+id/btjugar" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btopt"
             style="@style/boton_ppal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/button2"
+            android:layout_below="@+id/bttut"
             android:layout_marginBottom="15dp"
             android:layout_marginTop="15dp"
             android:text="@string/opcion_ppal"
-            app:layout_constraintBottom_toTopOf="@+id/button4"
+            app:layout_constraintBottom_toTopOf="@+id/btabout"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button2" />
+            app:layout_constraintTop_toBottomOf="@+id/bttut" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/btabout"
             style="@style/boton_ppal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/button3"
+            android:layout_below="@+id/btopt"
             android:text="@string/about_ppal"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button3" />
+            app:layout_constraintTop_toBottomOf="@+id/btopt" />
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
