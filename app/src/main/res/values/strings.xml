@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Juego: Punticos</string>
-
     <!-- Strings de activity_main -->
     <string name="titulo">Punticos</string>
     <string name="jugar_ppal">Jugar</string>

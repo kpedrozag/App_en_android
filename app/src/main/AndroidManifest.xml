@@ -4,14 +4,13 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/icon_circle"
         android:orientation="vertical"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/icon_circle"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
-            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <!-- Primera actividad en lanzarse -->
@@ -19,7 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity_jugar" />
-        <activity android:name=".activity_tablero"></activity>
+        <activity android:name=".activity_tablero" />
     </application>
 
 </manifest>
