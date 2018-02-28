@@ -1,6 +1,7 @@
 package com.example.kevinpedroza.myapplication
 
 import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 
@@ -10,10 +11,16 @@ class activity_tablero : Activity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tablero)
     }
-    class boton (val v: View, val x: Int, val y: Int){
 
+    fun closeIntent(v: View)
+    {
+        finish()
     }
 
+    fun ir_ppal(v: View) {
+        val intent1 = Intent(this, MainActivity::class.java).apply {  }
+        startActivity(intent1)
+    }
     
 
 }

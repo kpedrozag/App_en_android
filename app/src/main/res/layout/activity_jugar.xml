@@ -14,11 +14,10 @@
         android:layout_height="0dp"
         android:layout_marginBottom="60dp"
         android:layout_marginEnd="101dp"
-        android:layout_marginStart="104dp"
+        android:layout_marginStart="103dp"
         android:text="@string/nombre_jug"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <android.support.constraint.ConstraintLayout
@@ -94,6 +93,7 @@
         android:layout_marginStart="68dp"
         android:layout_marginTop="15dp"
         android:text="@string/go"
+        android:onClick="ir_tablero"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
